@@ -1,3 +1,5 @@
+# j'ajoute un commentaire pour essayer
+### je chage vraiment
 #=================================================================================================
 # Modele avec structure CAR propre seul 
 # sans variable explicative
