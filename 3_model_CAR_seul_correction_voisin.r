@@ -1,3 +1,5 @@
+## j'Ã©cris sur ton fichier
+
 # j'ajoute un commentaire pour essayer
 ### je chage vraiment
 #=================================================================================================
@@ -18,7 +20,7 @@ head(nb_voisin)
 # 2. Liste des voisins de chaque parcelle
 liste_voisins <- unlist(mynblist[[1]])
 #
-# 3. Critère de sélection du lien: on supp les liens qui passent sur la N6
+# 3. CritÃ¨re de sÃ©lection du lien: on supp les liens qui passent sur la N6
 cote_parcelle <- parcelle@data$N6
 cote_parcelle
 # 
@@ -27,7 +29,7 @@ indice <- 0
 voisin_a_suppr <- rep(0, length(liste_voisins))
 nb_voisin_a_suppr <- rep(0, length(nb_voisin))
 #
-# a. Sélection de la parcelle  "p"
+# a. SÃ©lection de la parcelle  "p"
 for (id_parc in 1:(length(nb_voisin))){
   cote_parcelle_parcsel <-  cote_parcelle[id_parc]     #as.character(type$type[p])
   #
@@ -72,7 +74,7 @@ num <- nb_voisin
 
 
 
-# 3. Poids des voisins de chaque unité i = 1/n_i
+# 3. Poids des voisins de chaque unitÃ© i = 1/n_i
 Ci <- NULL # creation du vecteur C prenant 1/n_i si voisin, 0 sinon
 for(i in 1:length(num)){tt <- rep((1/ num[i]), num[i])
 Ci <- c(Ci, tt)}
@@ -91,7 +93,7 @@ M <- rep(sigma2, N)
 
 
 
-voir comment mettre le sigma2 utilisé pour construire M[]
+voir comment mettre le sigma2 utilisÃ© pour construire M[]
 
  
 
